@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+        <meta charset="utf-8">
+        <title>Running Through The City</title>
+        <style>
+            body {
+                margin: 0;
+                /* padding: 0; */
+                overflow: hidden;
+            }
+            /* canvas {
+                display: block;
+            } */
+        </style>
+</head>
+<body>
+    
+    
+<!-- <script src="https://kaboomjs.com/lib/latest/kaboom.js"></script> -->
+
+<script type="module">
+
+    // import kaboom lib
+    import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
+    
+    // initialize kaboom context
+    kaboom();
+    
+    // add a piece of text at position (120, 80)
+    add([
+        text("hello"),
+        pos(120, 80),
+    ]);
+    
+    </script>
+
+</body>
+</html>
